@@ -1,0 +1,20 @@
+.header {
+  padding-top: 93px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__logo a p {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #fcae61;
+  font-weight: bold;
+  line-height: 1.467;
+}
+
+.header__logo a p .color-text {
+  color: #242f51;
+}
+/*# sourceMappingURL=header.css.map */

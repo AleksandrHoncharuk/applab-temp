@@ -1,0 +1,19 @@
+.header {
+  padding-top: 93px;
+  display: flex;
+
+  &__logo a {
+    p {
+      font-size: 30px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      color: rgb(252, 174, 97);
+      font-weight: bold;
+      line-height: 1.467;
+
+      .color-text {
+        color: rgb(36, 47, 81);
+      }
+    }
+  }
+}
