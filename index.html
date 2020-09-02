@@ -6,12 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
       rel="stylesheet"
     />
 
     <link rel="stylesheet" href="./styles/common/reset.css" />
     <link rel="stylesheet" href="./styles/header/header.css" />
+    <link rel="stylesheet" href="./styles/main/choice-app/choice-app.css" />
+
     <title>Appl.ab</title>
   </head>
   <body>
@@ -24,21 +26,84 @@
 
       <nav class="header__nav">
         <ul class="header__nav_list">
-          <li class="header__nav_list-item">Home</li>
-          <li class="header__nav_list-item">Key Features</li>
-          <li class="header__nav_list-item">Pricing</li>
-          <li class="header__nav_list-item">Testiminial</li>
-          <li class="header__nav_list-item">FAQ</li>
+          <li class="header__nav_list-item">
+            <a href="">Home</a>
+          </li>
+
+          <li class="header__nav_list-item">
+            <a href="">Key Features</a>
+          </li>
+
+          <li class="header__nav_list-item">
+            <a href="">Pricing</a>
+          </li>
+
+          <li class="header__nav_list-item">
+            <a href="">Testiminial</a>
+          </li>
+
+          <li class="header__nav_list-item">
+            <a href="">FAQ</a>
+          </li>
         </ul>
       </nav>
 
-      <button class="btn">Try for free</button>
+      <button class="btn header__button">Try for free</button>
     </header>
 
     <main class="main">
-      <article class="">
-        <section class="main__article_choice-app">
-          <div></div>
+      <article>
+        <section class="choice-app">
+          <div class="choice-app_content">
+            <div class="choice-app_content_text">
+              <div class="choice-app_content_text-editiors">
+                <img
+                  src="https://img.icons8.com/ios/50/000000/approval.png"
+                  class="check-mark"
+                />
+                <h4>#1 Editiors Choice App of 2020</h4>
+              </div>
+
+              <h3>Best app for your modern lifestyle</h3>
+
+              <span>
+                Increase productivity with a simple to-do app. app for managing
+                your personal budgets.
+              </span>
+
+              <div class="choice-app_content_text-links">
+                <button class="btn">Try for free</button>
+
+                <a href="#" class="choice-app_content_text-links-video"
+                  >Watch demo video</a
+                >
+              </div>
+            </div>
+
+            <img
+              src="./img/choice-app-phone.png"
+              alt="phone"
+              class="choice-app_content-phone"
+            />
+          </div>
+
+          <div class="choice-app-circles">
+            <img
+              src="./img/choice-app-left-circles.png"
+              alt="circles"
+              class="choice-app-circles-left"
+            />
+
+            <div class="choice-app-circles-gradient left-bottom"></div>
+            <div class="choice-app-circles-gradient top"></div>
+            <div class="choice-app-circles-gradient right-bottom"></div>
+          </div>
+
+          <img
+            src="./img/choice-app-city.png"
+            alt="background city"
+            class="background-city"
+          />
         </section>
       </article>
     </main>

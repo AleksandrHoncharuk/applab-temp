@@ -1,6 +1,11 @@
 .header {
   padding-top: 93px;
   display: flex;
+  align-items: center;
+
+  &__logo {
+    margin-left: 350px;
+  }
 
   &__logo a {
     p {
@@ -15,5 +20,47 @@
         color: rgb(36, 47, 81);
       }
     }
+  }
+
+  &__nav {
+    margin-left: 400px;
+
+    &_list {
+      display: flex;
+
+      &-item {
+        margin: 0 15px;
+        a {
+          font-size: 16px;
+          font-family: "Poppins", sans-serif;
+          color: rgb(36, 47, 81);
+          line-height: 2.75;
+        }
+      }
+    }
+  }
+
+  &__button {
+    margin-left: 70px;
+  }
+}
+
+.btn {
+  width: 170px;
+  height: 55px;
+  background-color: rgb(37, 0, 249);
+  border-radius: 28px;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 2.75;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+  outline: none;
+  transition: 0.125s all;
+
+  &:active {
+    transform: translate3d(2px, 2px, 0);
   }
 }
