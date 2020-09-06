@@ -6,10 +6,37 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  position: relative;
 }
 
-.features-app__images {
-  position: relative;
+.features-app__images-gray-ellipse {
+  left: 202px;
+  top: 158px;
+}
+
+.features-app__images-line-shape {
+  left: 160px;
+  top: 100px;
+}
+
+.features-app__images-blue-ellipse {
+  left: 105px;
+  top: 155px;
+}
+
+.features-app__images-light-purple-ellipse {
+  left: 220px;
+  bottom: 0;
+}
+
+.features-app__images-purple-ellipse {
+  top: 250px;
+  left: 560px;
+}
+
+.features-app__images-phone {
+  left: 210px;
+  top: -20px;
 }
 
 .features-app__images img {
@@ -66,39 +93,42 @@
   border-radius: 50%;
   width: 88px;
   height: 88px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.features-app__content_opportunities_wrapper-icon {
-  position: absolute;
-  top: 17%;
-  left: 17%;
-}
-
-.features-app__content_opportunities_block {
+.features-app__content_opportunities_wrapper_block {
   margin-left: 35px;
   width: 265px;
 }
 
-.features-app__content_opportunities_block .red-caption {
+.features-app__content_opportunities_wrapper_block .red-caption {
   color: #f55767;
 }
 
-.features-app__content_opportunities_block .blue-caption {
+.features-app__content_opportunities_wrapper_block .blue-caption {
   color: #2563ff;
 }
 
-.features-app__content_opportunities_block .green-caption {
+.features-app__content_opportunities_wrapper_block .green-caption {
   color: #40975f;
 }
 
-.features-app__content_opportunities_block-caption {
+.features-app__content_opportunities_wrapper_block-caption {
   font-size: 20px;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   line-height: 2;
 }
 
-.features-app__content_opportunities_block-text {
+.features-app__content_opportunities_wrapper_block-text {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   color: #616368;
