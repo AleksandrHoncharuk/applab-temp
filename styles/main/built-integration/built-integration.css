@@ -1,0 +1,76 @@
+.built-integration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 130px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid #dfdddd;
+}
+
+.built-integration__programs {
+  margin-left: 320px;
+  position: relative;
+}
+
+.built-integration__programs .absolute {
+  position: absolute;
+}
+
+.built-integration__programs .js-icon {
+  left: 38px;
+  top: 125px;
+}
+
+.built-integration__programs .html-icon {
+  top: 37px;
+  left: 128px;
+}
+
+.built-integration__programs .git-icon {
+  top: 83px;
+  left: 243px;
+}
+
+.built-integration__programs .swift-icon {
+  right: 186px;
+  top: 212px;
+}
+
+.built-integration__programs .php-icon {
+  top: 28px;
+  right: 200px;
+}
+
+.built-integration__programs .code-icon {
+  top: 176px;
+  right: 70px;
+}
+
+.built-integration__content {
+  width: 410px;
+  margin-left: 100px;
+}
+
+.built-integration__content h3 {
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+  color: #242f51;
+  font-weight: 600;
+  line-height: 1.278;
+  margin-bottom: 32px;
+}
+
+.built-integration__content span {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #616368;
+  line-height: 1.625;
+}
+
+.built-integration__content-btn {
+  margin-top: 45px;
+}
+/*# sourceMappingURL=built-integration.css.map */

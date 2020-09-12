@@ -74,22 +74,6 @@
 }
 
 .features-app__content_opportunities_wrapper {
-  position: relative;
-}
-
-.features-app__content_opportunities_wrapper .red-ellipse {
-  background-color: #f8c5cd;
-}
-
-.features-app__content_opportunities_wrapper .blue-ellipse {
-  background-color: rgba(183, 183, 251, 0.842);
-}
-
-.features-app__content_opportunities_wrapper .green-ellipse {
-  background-color: #bafbd2;
-}
-
-.features-app__content_opportunities_wrapper-ellipse {
   border-radius: 50%;
   width: 88px;
   height: 88px;
@@ -104,34 +88,46 @@
           align-items: center;
 }
 
-.features-app__content_opportunities_wrapper_block {
+.features-app__content_opportunities_block {
   margin-left: 35px;
   width: 265px;
 }
 
-.features-app__content_opportunities_wrapper_block .red-caption {
-  color: #f55767;
-}
-
-.features-app__content_opportunities_wrapper_block .blue-caption {
-  color: #2563ff;
-}
-
-.features-app__content_opportunities_wrapper_block .green-caption {
-  color: #40975f;
-}
-
-.features-app__content_opportunities_wrapper_block-caption {
+.features-app__content_opportunities_block-caption {
   font-size: 20px;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   line-height: 2;
 }
 
-.features-app__content_opportunities_wrapper_block-text {
+.features-app__content_opportunities_block-text {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   color: #616368;
   line-height: 1.625;
+}
+
+.red-ellipse {
+  background-color: rgba(248, 197, 205, 0.849);
+}
+
+.blue-ellipse {
+  background-color: rgba(194, 217, 255, 0.623);
+}
+
+.green-ellipse {
+  background-color: rgba(186, 251, 210, 0.835);
+}
+
+.red-caption {
+  color: #f55767;
+}
+
+.blue-caption {
+  color: #2563ff;
+}
+
+.green-caption {
+  color: #40975f;
 }
 /*# sourceMappingURL=features-app.css.map */

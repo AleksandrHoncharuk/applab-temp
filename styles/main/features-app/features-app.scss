@@ -65,60 +65,56 @@
       margin-top: 70px;
 
       &_wrapper {
-        position: relative;
+        border-radius: 50%;
+        width: 88px;
+        height: 88px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
 
-        .red-ellipse {
-          background-color: rgb(248, 197, 205);
+      &_block {
+        margin-left: 35px;
+        width: 265px;
+
+        &-caption {
+          font-size: 20px;
+          font-family: "Poppins", sans-serif;
+          font-weight: bold;
+          line-height: 2;
         }
 
-        .blue-ellipse {
-          background-color: rgba(183, 183, 251, 0.842);
-        }
-
-        .green-ellipse {
-          background-color: rgb(186, 251, 210);
-        }
-
-        &-ellipse {
-          border-radius: 50%;
-          width: 88px;
-          height: 88px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        &_block {
-          margin-left: 35px;
-          width: 265px;
-
-          .red-caption {
-            color: rgb(245, 87, 103);
-          }
-
-          .blue-caption {
-            color: rgb(37, 99, 255);
-          }
-
-          .green-caption {
-            color: rgb(64, 151, 95);
-          }
-
-          &-caption {
-            font-size: 20px;
-            font-family: "Poppins", sans-serif;
-            font-weight: bold;
-            line-height: 2;
-          }
-
-          &-text {
-            font-size: 16px;
-            font-family: "Poppins", sans-serif;
-            color: rgb(97, 99, 104);
-            line-height: 1.625;
-          }
+        &-text {
+          font-size: 16px;
+          font-family: "Poppins", sans-serif;
+          color: rgb(97, 99, 104);
+          line-height: 1.625;
         }
       }
     }
   }
+}
+
+.red-ellipse {
+  background-color: rgba(248, 197, 205, 0.849);
+}
+
+.blue-ellipse {
+  background-color: rgba(194, 217, 255, 0.623);
+}
+
+.green-ellipse {
+  background-color: rgba(186, 251, 210, 0.835);
+}
+
+.red-caption {
+  color: rgb(245, 87, 103);
+}
+
+.blue-caption {
+  color: rgb(37, 99, 255);
+}
+
+.green-caption {
+  color: rgb(64, 151, 95);
 }

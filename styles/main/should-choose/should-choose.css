@@ -1,0 +1,107 @@
+.should-choose {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 145px;
+}
+
+.should-choose__caption {
+  width: 435px;
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+  color: #242f51;
+  font-weight: 600;
+  line-height: 1.278;
+  text-align: center;
+}
+
+.should-choose__caption-text {
+  width: 640px;
+  margin-top: 45px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #616368;
+  line-height: 1.625;
+  text-align: center;
+}
+
+.should-choose__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1030px;
+  margin-top: 25px;
+}
+
+.should-choose__content_opportunities {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 270px;
+  margin-top: 75px;
+}
+
+.should-choose__content_opportunities-icon {
+  width: 88px;
+  height: 88px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+}
+
+.should-choose__content_opportunities_block-caption {
+  margin-top: 35px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  color: #242f51;
+  font-weight: 600;
+  line-height: 2.9;
+}
+
+.should-choose__content_opportunities_block-text {
+  margin-top: 25px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #616368;
+  line-height: 1.625;
+}
+
+.yellow-ellipse {
+  background-color: rgba(248, 237, 193, 0.829);
+}
+
+.purple-ellipse {
+  background-color: rgba(218, 218, 251, 0.842);
+}
+
+.orange-ellipse {
+  background-color: #fde6d7;
+}
+/*# sourceMappingURL=should-choose.css.map */
