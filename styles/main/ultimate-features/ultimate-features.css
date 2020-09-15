@@ -1,0 +1,103 @@
+.ultimate-features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 145px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.ultimate-features__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 635px;
+  margin-top: 25px;
+}
+
+.ultimate-features__content-caption {
+  width: 400px;
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+  color: #242f51;
+  font-weight: 600;
+  line-height: 1.278;
+}
+
+.ultimate-features__content-caption-text {
+  width: 400px;
+  margin-top: 28px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #616368;
+  line-height: 1.625;
+}
+
+.ultimate-features__content_opportunities {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+  width: 270px;
+  margin-top: 75px;
+}
+
+.ultimate-features__content_opportunities-icon {
+  width: 88px;
+  height: 88px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+}
+
+.ultimate-features__content_opportunities_block-caption {
+  margin-top: 35px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  color: #242f51;
+  font-weight: 600;
+  line-height: 2.9;
+}
+
+.ultimate-features__content_opportunities_block-text {
+  margin-top: 25px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #616368;
+  line-height: 1.625;
+}
+
+.ultimate-features__content-btn {
+  margin-top: 60px;
+}
+
+.ultimate-features__phones {
+  position: relative;
+}
+
+.ultimate-features__phones-left {
+  position: absolute;
+  z-index: -1;
+  left: -200px;
+}
+/*# sourceMappingURL=ultimate-features.css.map */
