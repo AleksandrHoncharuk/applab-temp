@@ -93,6 +93,7 @@
 
 .ultimate-features__phones {
   position: relative;
+  z-index: 1;
 }
 
 .ultimate-features__phones-left {

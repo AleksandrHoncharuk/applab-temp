@@ -1,0 +1,54 @@
+.footer {
+  background-color: rgb(9, 20, 46);
+  padding-top: 115px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__logo a {
+    p {
+      font-size: 30px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      color: rgb(252, 174, 97);
+      font-weight: bold;
+      line-height: 1.467;
+
+      .color-text {
+        color: #ffffff;
+      }
+    }
+  }
+
+  &__nav {
+    margin-top: 50px;
+
+    &_list {
+      display: flex;
+
+      &-item {
+        margin: 0 15px;
+        a {
+          font-size: 16px;
+          font-family: "Poppins", sans-serif;
+          color: #ffffff;
+          line-height: 2.75;
+        }
+      }
+    }
+  }
+
+  &__social {
+    margin-top: 45px;
+
+    &-icon {
+      cursor: pointer;
+      opacity: 0.3;
+      margin: 0 11px;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
