@@ -101,4 +101,11 @@
   z-index: -1;
   left: -200px;
 }
+
+.ultimate-features__phones-background {
+  position: absolute;
+  top: -100px;
+  left: -200px;
+  z-index: -2;
+}
 /*# sourceMappingURL=ultimate-features.css.map */

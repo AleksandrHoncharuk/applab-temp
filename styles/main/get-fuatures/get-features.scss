@@ -61,7 +61,7 @@
     margin-top: 45px;
     display: flex;
     height: 650px;
-    width: 660px;
+    width: 670px;
 
     &_tariff {
       width: 315px;
@@ -75,6 +75,7 @@
       &:hover {
         border: 1px solid rgba(187, 185, 185, 0.493);
         border-radius: 7px;
+        margin: 0 19px;
 
         .get-features__cards_tariff_information-link {
           display: block;

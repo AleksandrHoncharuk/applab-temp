@@ -11,6 +11,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-bottom: 115px;
 }
 
 .footer__logo a p {
@@ -59,5 +60,13 @@
 
 .footer__social-icon:hover {
   opacity: 1;
+}
+
+.footer__who-created {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: rgba(255, 255, 255, 0.212);
+  line-height: 3.143;
+  margin-top: 90px;
 }
 /*# sourceMappingURL=footer.css.map */

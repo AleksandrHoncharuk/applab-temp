@@ -1,0 +1,53 @@
+.download-app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.download-app__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 650px;
+  margin-right: 100px;
+}
+
+.download-app__container-caption {
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  color: #242f51;
+  font-weight: 600;
+  line-height: 1.208;
+}
+
+.download-app__container-caption-text {
+  margin-top: 40px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #616368;
+  line-height: 1.625;
+}
+
+.download-app__stores {
+  margin-top: 52px;
+}
+
+.download-app__stores-app-store {
+  margin-left: 35px;
+}
+
+.download-app__right-object {
+  position: relative;
+  bottom: -60px;
+}
+/*# sourceMappingURL=download-app.css.map */

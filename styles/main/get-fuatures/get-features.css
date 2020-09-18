@@ -71,7 +71,7 @@
   display: -ms-flexbox;
   display: flex;
   height: 650px;
-  width: 660px;
+  width: 670px;
 }
 
 .get-features__cards_tariff {
@@ -90,6 +90,7 @@
 .get-features__cards_tariff:hover {
   border: 1px solid rgba(187, 185, 185, 0.493);
   border-radius: 7px;
+  margin: 0 19px;
 }
 
 .get-features__cards_tariff:hover .get-features__cards_tariff_information-link {
