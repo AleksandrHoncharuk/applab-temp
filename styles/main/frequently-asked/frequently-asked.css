@@ -1,0 +1,94 @@
+.frequently-asked {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.frequently-asked__caption {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  color: #242f51;
+  font-weight: 600;
+  line-height: 1.45;
+  margin-top: 170px;
+}
+
+.frequently-asked__caption-text {
+  width: 630px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #616368;
+  line-height: 1.625;
+  text-align: center;
+  margin-top: 33px;
+}
+
+.frequently-asked__questions-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 67px;
+  width: 850px;
+}
+
+.frequently-asked__questions-list_item {
+  height: 100%;
+  width: 100%;
+  margin: 6px 0;
+  padding: 10px 28px;
+  background-color: #cbced1;
+  cursor: pointer;
+}
+
+.frequently-asked__questions-list_item[open] > .frequently-asked__questions-list_item-question::after {
+  content: "";
+}
+
+.frequently-asked__questions-list_item[open] {
+  padding: 45px 0;
+}
+
+.frequently-asked__questions-list_item-question {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  color: #242f51;
+  font-weight: bold;
+  outline: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.frequently-asked__questions-list_item-question::after {
+  content: "+";
+}
+
+.frequently-asked__questions-list_item-question::-webkit-details-marker {
+  display: none;
+}
+
+.frequently-asked__questions-list_item-answer {
+  width: 787px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #616368;
+  line-height: 1.625;
+}
+/*# sourceMappingURL=frequently-asked.css.map */
