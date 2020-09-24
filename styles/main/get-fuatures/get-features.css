@@ -11,7 +11,7 @@
           align-items: center;
   align-items: center;
   padding-bottom: 100px;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.692);
+  border-bottom: 1px solid #e6e1e1;
 }
 
 .get-features__caption {
@@ -41,6 +41,10 @@
   border-radius: 30px;
   padding: 2px 2px;
   display: inline-block;
+}
+
+.get-features__container .label {
+  margin-bottom: 0;
 }
 
 .get-features__container :checked + label {

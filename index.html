@@ -9,14 +9,19 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
       rel="stylesheet"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./styles/common/reset.css" />
     <link rel="stylesheet" href="./styles/header/header.css" />
     <link rel="stylesheet" href="./styles/main/choice-app/choice-app.css" />
     <link rel="stylesheet" href="./styles/main/trusted/trusted.css" />
     <link rel="stylesheet" href="./styles/main/features-app/features-app.css" />
     <link rel="stylesheet" href="./styles/main/get-fuatures/get-features.css" />
-    <!--  -->
+    <link rel="stylesheet" href="./styles/main/feedback/feedback.css" />
     <link
       rel="stylesheet"
       href="./styles/main/frequently-asked/frequently-asked.css"
@@ -702,7 +707,7 @@
               id="button1"
               checked
             />
-            <label for="button1">Monthly</label>
+            <label for="button1" class="label">Monthly</label>
             <input
               type="radio"
               class="get-features__container-radio-button"
@@ -710,7 +715,7 @@
               value="2"
               id="button2"
             />
-            <label for="button2">Annually</label>
+            <label for="button2" class="label">Annually</label>
           </div>
 
           <div class="get-features__cards">
@@ -794,6 +799,130 @@
           </div>
         </section>
 
+        <!-- Client satisfaction by using product -->
+
+        <section class="feedback">
+          <div class="feedback__client-icon">
+            <img
+              src="./img/feedback-world.png"
+              class="feedback__client-icon-world"
+              alt="world"
+            />
+            <img
+              src="./img/feedback-left-man.png"
+              alt="client"
+              class="left-man"
+            />
+            <img
+              src="./img/feedback-center-left-girl.png"
+              alt="client"
+              class="center-left-girl"
+            />
+            <img
+              src="./img/feedback-top-girl.png"
+              alt="client"
+              class="top-girl"
+            />
+            <img
+              src="./img/feedback-center-man.png"
+              alt="client"
+              class="center-man"
+            />
+            <img
+              src="./img/feedback-bottom-man.png"
+              alt="client"
+              class="bottom-man"
+            />
+            <img
+              src="./img/feedback-right-man.png"
+              alt="client"
+              class="right-man"
+            />
+            <img
+              src="./img/feedback-top-right-man.png"
+              alt="client"
+              class="top-right-man"
+            />
+          </div>
+
+          <div class="feedback__container">
+            <h3 class="feedback__container-caption">
+              Meet Client Satisfaction by using product
+            </h3>
+
+            <span class="feedback__container-caption-text">
+              The rise of mobile devices transforms the way we consume. elevant
+              channels such as Facebook.
+            </span>
+            <div class="feedback__container_stars">
+              <svg
+                width="1em"
+                height="1em"
+                viewBox="0 0 16 16"
+                class="bi bi-star-fill"
+                fill="rgb(255, 204, 0)"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+
+              <svg
+                width="1em"
+                height="1em"
+                viewBox="0 0 16 16"
+                class="bi bi-star-fill"
+                fill="rgb(255, 204, 0)"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+
+              <svg
+                width="1em"
+                height="1em"
+                viewBox="0 0 16 16"
+                class="bi bi-star-fill"
+                fill="rgb(255, 204, 0)"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+
+              <svg
+                width="1em"
+                height="1em"
+                viewBox="0 0 16 16"
+                class="bi bi-star-fill"
+                fill="rgb(255, 204, 0)"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+
+              <svg
+                width="1em"
+                height="1em"
+                viewBox="0 0 16 16"
+                class="bi bi-star-fill"
+                fill="rgb(255, 204, 0)"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+            </div>
+          </div>
+        </section>
+
         <!-- frequently asked questions section -->
 
         <section class="frequently-asked">
@@ -804,71 +933,159 @@
             entirely and the world's most elevant channels such as Facebook.
           </span>
 
-          <div class="frequently-asked__questions-list">
-            <details class="frequently-asked__questions-list_item">
-              <summary class="frequently-asked__questions-list_item-question"
-                >How to contact with riders emergency?</summary
-              >
-              <span class="frequently-asked__questions-list_item-answer">
-                Leverage agile frameworks to provide a robust synopsis for high
-                level overviews. Iterative approaches to corporate strategy
-                foster collaborative thinking to further the overall value
-                proposition. Organically grow the holistic world view of
-                disruptive innovation via workplace diversity and empowerment. </span
-              >.
-            </details>
-            <details class="frequently-asked__questions-list_item">
-              <summary class="frequently-asked__questions-list_item-question"
-                >App installation failed, how to update system
-                information?</summary
-              >
-              <span class="frequently-asked__questions-list_item-answer">
-                Leverage agile frameworks to provide a robust synopsis for high
-                level overviews. Iterative approaches to corporate strategy
-                foster collaborative thinking to further the overall value
-                proposition. Organically grow the holistic world view of
-                disruptive innovation via workplace diversity and empowerment.
-              </span>
-            </details>
+          <div id="accordion" class="frequently-asked__questions-list">
+            <div class="card frequently-asked__questions-list_item">
+              <div class="card-header " id="headingOne">
+                <h5 class="mb-0">
+                  <button
+                    class="btn-link frequently-asked__question"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="false"
+                    aria-controls="collapseOne"
+                  >
+                    How to contact with riders emergency?
+                  </button>
+                </h5>
+              </div>
 
-            <details class="frequently-asked__questions-list_item">
-              <summary class="frequently-asked__questions-list_item-question"
-                >Website response taking time, how to improve?</summary
+              <div
+                id="collapseOne"
+                class="collapse"
+                aria-labelledby="headingOne"
+                data-parent="#accordion"
               >
-              <span class="frequently-asked__questions-list_item-answer">
-                Leverage agile frameworks to provide a robust synopsis for high
-                level overviews. Iterative approaches to corporate strategy
-                foster collaborative thinking to further the overall value
-                proposition. Organically grow the holistic world view of
-                disruptive innovation via workplace diversity and empowerment.
-              </span>
-            </details>
+                <div
+                  class="card-body frequently-asked__answer frequently-asked__answer"
+                >
+                  Leverage agile frameworks to provide a robust synopsis for
+                  high level overviews. Iterative approaches to corporate
+                  strategy foster collaborative thinking to further the overall
+                  value proposition. Organically grow the holistic world view of
+                  disruptive innovation via workplace diversity and empowerment.
+                </div>
+              </div>
+            </div>
 
-            <details class="frequently-asked__questions-list_item">
-              <summary class="frequently-asked__questions-list_item-question"
-                >New update fixed all bug and issues</summary
+            <div class="card frequently-asked__questions-list_item">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button
+                    class="btn-link collapsed frequently-asked__question"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    App installation failed, how to update system information?
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordion"
               >
-              <span class="frequently-asked__questions-list_item-answer">
-                Leverage agile frameworks to provide a robust synopsis for high
-                level overviews. Iterative approaches to corporate strategy
-                foster collaborative thinking to further the overall value
-                proposition. Organically grow the holistic world view of
-                disruptive innovation via workplace diversity and empowerment.
-              </span>
-            </details>
+                <div class="card-body frequently-asked__answer">
+                  Leverage agile frameworks to provide a robust synopsis for
+                  high level overviews. Iterative approaches to corporate
+                  strategy foster collaborative thinking to further the overall
+                  value proposition. Organically grow the holistic world view of
+                  disruptive innovation via workplace diversity and empowerment.
+                </div>
+              </div>
+            </div>
 
-            <details class="frequently-asked__questions-list_item">
-              <summary class="frequently-asked__questions-list_item-question"
-                >How to contact with riders emergency?</summary
+            <div class="card frequently-asked__questions-list_item">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button
+                    class="btn-link collapsed frequently-asked__question"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Website reponse taking time, how to improve?
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordion"
               >
-              <span class="frequently-asked__questions-list_item-answer">
-                Leverage agile frameworks to provide a robust synopsis for high
-                level overviews. Iterative approaches to corporate strategy
-                foster collaborative thinking to further the overall value
-                proposition. Organically grow the holistic world view of
-                disruptive innovation via workplace diversity and empowerment.
-              </span>
-            </details>
+                <div class="card-body frequently-asked__answer">
+                  Leverage agile frameworks to provide a robust synopsis for
+                  high level overviews. Iterative approaches to corporate
+                  strategy foster collaborative thinking to further the overall
+                  value proposition. Organically grow the holistic world view of
+                  disruptive innovation via workplace diversity and empowerment.
+                </div>
+              </div>
+            </div>
+
+            <div class="card frequently-asked__questions-list_item">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button
+                    class="btn-link collapsed frequently-asked__question"
+                    data-toggle="collapse"
+                    data-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    New update fixed all bug and issues
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapseFour"
+                class="collapse"
+                aria-labelledby="headingFour"
+                data-parent="#accordion"
+              >
+                <div class="card-body frequently-asked__answer">
+                  Leverage agile frameworks to provide a robust synopsis for
+                  high level overviews. Iterative approaches to corporate
+                  strategy foster collaborative thinking to further the overall
+                  value proposition. Organically grow the holistic world view of
+                  disruptive innovation via workplace diversity and empowerment.
+                </div>
+              </div>
+            </div>
+
+            <div class="card frequently-asked__questions-list_item">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button
+                    class="btn-link collapsed frequently-asked__question"
+                    data-toggle="collapse"
+                    data-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                  >
+                    How to contact with riders emergency?
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapseFive"
+                class="collapse"
+                aria-labelledby="headingFive"
+                data-parent="#accordion"
+              >
+                <div class="card-body frequently-asked__answer">
+                  Leverage agile frameworks to provide a robust synopsis for
+                  high level overviews. Iterative approaches to corporate
+                  strategy foster collaborative thinking to further the overall
+                  value proposition. Organically grow the holistic world view of
+                  disruptive innovation via workplace diversity and empowerment.
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -969,6 +1186,21 @@
       </p>
     </footer>
 
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
     <script src="./index.js"></script>
   </body>
 </html>

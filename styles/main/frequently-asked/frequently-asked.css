@@ -12,6 +12,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border-bottom: 1px solid #e6e1e1;
+  padding-bottom: 115px;
 }
 
 .frequently-asked__caption {
@@ -33,36 +35,20 @@
   margin-top: 33px;
 }
 
-.frequently-asked__questions-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin-top: 67px;
-  width: 850px;
+.frequently-asked .card-header {
+  padding: 0;
+  border: none;
 }
 
-.frequently-asked__questions-list_item {
-  height: 100%;
+.frequently-asked .frequently-asked__questions-list_item {
   width: 100%;
-  margin: 6px 0;
-  padding: 10px 28px;
-  background-color: #cbced1;
-  cursor: pointer;
+  margin-top: 10px;
+  border: none;
 }
 
-.frequently-asked__questions-list_item[open] > .frequently-asked__questions-list_item-question::after {
-  content: "";
-}
-
-.frequently-asked__questions-list_item[open] {
-  padding: 45px 0;
-}
-
-.frequently-asked__questions-list_item-question {
+.frequently-asked .frequently-asked__question {
+  width: 100%;
+  padding: 12px 30px;
   font-size: 20px;
   font-family: "Poppins", sans-serif;
   color: #242f51;
@@ -74,21 +60,35 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  background-color: #ececf0;
+  text-decoration: none;
 }
 
-.frequently-asked__questions-list_item-question::after {
+.frequently-asked .frequently-asked__question::after {
   content: "+";
 }
 
-.frequently-asked__questions-list_item-question::-webkit-details-marker {
-  display: none;
+.frequently-asked .frequently-asked__question[aria-expanded="true"]::after {
+  content: " ";
 }
 
-.frequently-asked__questions-list_item-answer {
-  width: 787px;
+.frequently-asked .frequently-asked__answer {
+  width: 100%;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   color: #616368;
   line-height: 1.625;
+  cursor: pointer;
+  background-color: #ececf0;
+  padding: 30px 30px 80px 30px;
+}
+
+.frequently-asked .collapse {
+  padding: 0 0;
+}
+
+.frequently-asked .frequently-asked__questions-list {
+  margin-top: 67px;
+  width: 850px;
 }
 /*# sourceMappingURL=frequently-asked.css.map */

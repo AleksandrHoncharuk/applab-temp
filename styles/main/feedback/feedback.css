@@ -1,0 +1,57 @@
+.feedback {
+  padding-top: 155px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.feedback__client-icon {
+  position: relative;
+}
+
+.feedback__client-icon img:first-child {
+  position: relative;
+}
+
+.feedback__client-icon img {
+  position: absolute;
+}
+
+.feedback__client-icon .left-man {
+  top: 110px;
+  left: 40px;
+}
+
+.feedback__client-icon .center-left-girl {
+  top: 250px;
+  left: 58px;
+}
+
+.feedback__client-icon .top-girl {
+  top: -15px;
+  left: 32%;
+}
+
+.feedback__client-icon .center-man {
+  top: 35%;
+  left: 35%;
+}
+
+.feedback__client-icon .bottom-man {
+  bottom: 0;
+  left: 235px;
+}
+
+.feedback__client-icon .right-man {
+  bottom: 160px;
+  right: 30%;
+}
+
+.feedback__client-icon .top-right-man {
+  right: 145px;
+  top: 35px;
+}
+/*# sourceMappingURL=feedback.css.map */
