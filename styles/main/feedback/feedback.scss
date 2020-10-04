@@ -1,7 +1,7 @@
 .feedback {
   padding-top: 155px;
   display: flex;
-  justify-content: space-evenly;
+  // justify-content: space-evenly;
 
   &__client-icon {
     position: relative;
@@ -47,6 +47,106 @@
     .top-right-man {
       right: 145px;
       top: 35px;
+    }
+  }
+
+  &__container {
+    width: 610px;
+    margin-left: 100px;
+
+    &-caption {
+      font-size: 40px;
+      font-family: "Poppins", sans-serif;
+      color: rgb(36, 47, 81);
+      font-weight: 600;
+      line-height: 1.25;
+    }
+
+    &-caption-text {
+      font-size: 16px;
+      font-family: "Poppins", sans-serif;
+      color: rgb(97, 99, 104);
+      line-height: 1.625;
+      margin-top: 25px;
+    }
+
+    &_stars {
+      margin-top: 42px;
+    }
+
+    &_testimonial {
+      margin-top: 30px;
+
+      &-caption {
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        color: rgb(36, 47, 81);
+        font-weight: 600;
+        line-height: 2.9;
+      }
+
+      &-text {
+        font-size: 16px;
+        font-family: "Poppins", sans-serif;
+        color: rgb(97, 99, 104);
+        line-height: 1.625;
+      }
+
+      &_user {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+
+        &_wrapper {
+          display: flex;
+          align-items: center;
+
+          &_info {
+            margin-left: 25px;
+            &-name {
+              font-size: 18px;
+              font-family: "Poppins", sans-serif;
+              color: rgb(36, 47, 81);
+              font-weight: 600;
+            }
+
+            &-profession {
+              font-size: 18px;
+              font-family: "Poppins", sans-serif;
+              color: rgb(97, 99, 104);
+            }
+          }
+        }
+
+        &_switch {
+          display: flex;
+          align-items: center;
+
+          &-line {
+            width: 1px;
+            height: 15px;
+            background-color: rgb(209, 209, 211);
+          }
+
+          & :checked + label {
+            color: rgb(37, 0, 249);
+            background-color: rgb(204, 225, 250);
+          }
+
+          & .label {
+            margin: 0 5px 0 5px;
+            font-size: 13px;
+            padding: 7px 7px;
+            color: rgb(189, 189, 190);
+            border-radius: 50%;
+            border: 1px solid rgb(209, 209, 211);
+          }
+
+          &-button {
+            display: none;
+          }
+        }
+      }
     }
   }
 }
