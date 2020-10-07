@@ -54,7 +54,7 @@
 
 .get-features__container label {
   padding: 10px 30px;
-  background-color: #ffffff;
+  background-color: #f4f7f9;
   border-radius: 28px;
   color: black;
   line-height: 2.75;
@@ -75,7 +75,7 @@
   display: -ms-flexbox;
   display: flex;
   height: 650px;
-  width: 670px;
+  width: 668px;
 }
 
 .get-features__cards_tariff {
@@ -83,18 +83,18 @@
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
-  background-color: #f4f7f9;
+  background-color: rgba(228, 230, 231, 0.404);
   margin-top: 40px;
   text-align: center;
   margin: 0 20px;
   -webkit-box-shadow: 2px 17px 23px -14px rgba(0, 0, 0, 0.2);
           box-shadow: 2px 17px 23px -14px rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
 }
 
 .get-features__cards_tariff:hover {
   border: 1px solid rgba(187, 185, 185, 0.493);
   border-radius: 7px;
-  margin: 0 19px;
 }
 
 .get-features__cards_tariff:hover .get-features__cards_tariff_information-link {

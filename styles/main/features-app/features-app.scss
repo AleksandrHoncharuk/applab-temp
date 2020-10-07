@@ -1,7 +1,7 @@
 .features-app {
   margin-top: 100px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   position: relative;
 
   &__images {
@@ -117,4 +117,12 @@
 
 .green-caption {
   color: rgb(64, 151, 95);
+}
+
+@media only screen and (max-width: 1600px) {
+  .features-app {
+    &__images {
+      margin-right: 400px;
+    }
+  }
 }

@@ -108,4 +108,14 @@
   left: -200px;
   z-index: -2;
 }
+
+@media only screen and (max-width: 1750px) {
+  .ultimate-features {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
 /*# sourceMappingURL=ultimate-features.css.map */

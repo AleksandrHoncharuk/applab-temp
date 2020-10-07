@@ -1,7 +1,6 @@
 .feedback {
   padding-top: 155px;
   display: flex;
-  // justify-content: space-evenly;
 
   &__client-icon {
     position: relative;
@@ -146,6 +145,68 @@
             display: none;
           }
         }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1580px) {
+  .feedback {
+    &__container {
+      margin-left: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 1460px) {
+  .feedback {
+    display: flex;
+    align-items: center;
+
+    &__client-icon {
+      position: relative;
+
+      & img:first-child {
+        width: 773px;
+      }
+
+      & img {
+        position: absolute;
+      }
+
+      .left-man {
+        top: 110px;
+        left: 40px;
+      }
+
+      .center-left-girl {
+        top: 250px;
+        left: 58px;
+      }
+
+      .top-girl {
+        top: -15px;
+        left: 32%;
+      }
+
+      .center-man {
+        top: 35%;
+        left: 35%;
+      }
+
+      .bottom-man {
+        bottom: 0;
+        left: 235px;
+      }
+
+      .right-man {
+        bottom: 160px;
+        right: 30%;
+      }
+
+      .top-right-man {
+        right: 145px;
+        top: 35px;
       }
     }
   }

@@ -2,12 +2,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
 }
 
 .download-app__container {
@@ -19,7 +17,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   width: 650px;
-  margin-right: 100px;
+  margin: 75px 0 75px 200px;
 }
 
 .download-app__container-caption {
@@ -47,7 +45,14 @@
 }
 
 .download-app__right-object {
-  position: relative;
+  position: absolute;
+  right: 0;
   bottom: -60px;
+}
+
+@media only screen and (max-width: 1650px) {
+  .download-app__container {
+    margin: 75px 0 75px 100px;
+  }
 }
 /*# sourceMappingURL=download-app.css.map */

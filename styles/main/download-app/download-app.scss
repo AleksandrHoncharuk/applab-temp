@@ -1,13 +1,13 @@
 .download-app {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
+  position: relative;
 
   &__container {
     display: flex;
     flex-direction: column;
     width: 650px;
-    margin-right: 100px;
+    margin: 75px 0 75px 200px;
 
     &-caption {
       font-size: 48px;
@@ -36,7 +36,16 @@
   }
 
   &__right-object {
-    position: relative;
+    position: absolute;
+    right: 0;
     bottom: -60px;
+  }
+}
+
+@media only screen and (max-width: 1650px) {
+  .download-app {
+    &__container {
+      margin: 75px 0 75px 100px;
+    }
   }
 }

@@ -4,7 +4,7 @@
   align-items: center;
 
   &__logo {
-    margin-left: 350px;
+    margin: 0 0 0 350px;
   }
 
   &__logo a {
@@ -15,6 +15,7 @@
       color: rgb(252, 174, 97);
       font-weight: bold;
       line-height: 1.467;
+      margin: 0;
 
       .color-text {
         color: rgb(36, 47, 81);
@@ -62,5 +63,31 @@
 
   &:active {
     transform: translate3d(2px, 2px, 0);
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  body {
+    width: 1920px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 1690px) {
+  .header {
+    display: flex;
+    justify-content: center;
+
+    &__logo {
+      margin: 0 0 0 0px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .header {
+    &__nav {
+      margin-left: 200px;
+    }
   }
 }
