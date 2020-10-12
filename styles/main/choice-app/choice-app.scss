@@ -18,21 +18,15 @@
         width: 530px;
         margin-right: 100px;
         z-index: 2;
-        &-editiors {
+
+        &-editors {
           display: flex;
           align-items: center;
           height: 34px;
           width: 360px;
           background-color: rgb(226, 234, 237);
           border-radius: 20px;
-
-          .check-mark {
-            width: 20px;
-            height: 20px;
-            border: 7px solid orange;
-            background-color: orange;
-            border-radius: 50%;
-          }
+          opacity: 1;
 
           h4 {
             font-size: 17px;
@@ -40,7 +34,7 @@
             color: rgb(36, 47, 81);
             line-height: 1.556;
             font-family: "Poppins", sans-serif;
-            margin-left: 15px;
+            margin: 0 0 0 15px;
             font-weight: 400;
           }
         }
@@ -52,6 +46,7 @@
           font-weight: 600;
           line-height: 1.25;
           margin-top: 30px;
+          opacity: 1;
         }
 
         span {
@@ -78,6 +73,7 @@
       &-phone {
         margin-left: 100px;
         z-index: 2;
+        opacity: 1;
       }
     }
 
@@ -89,22 +85,25 @@
     }
 
     &-circles {
-      .left-bottom {
+      .circles-left-bottom {
         position: absolute;
         bottom: 80px;
         left: 350px;
+        opacity: 1;
       }
 
-      .top {
+      .circles-top {
         position: absolute;
         right: 35%;
         top: 0px;
+        opacity: 1;
       }
 
-      .right-bottom {
+      .circles-right-bottom {
         position: absolute;
         bottom: 60px;
         right: 120px;
+        opacity: 1;
       }
 
       &-left {
@@ -112,6 +111,7 @@
         left: 5px;
         width: 850px;
         top: 50px;
+        opacity: 1;
       }
 
       &-gradient {

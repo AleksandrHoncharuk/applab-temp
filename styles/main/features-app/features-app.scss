@@ -5,6 +5,8 @@
   position: relative;
 
   &__images {
+    opacity: 1;
+
     &-gray-ellipse {
       left: 202px;
       top: 158px;
@@ -50,6 +52,7 @@
       font-weight: bold;
       line-height: 1.278;
       margin-bottom: 30px;
+      opacity: 1;
     }
 
     &_caption-text {
@@ -57,12 +60,14 @@
       font-family: "Poppins", sans-serif;
       color: rgb(97, 99, 104);
       line-height: 1.625;
+      opacity: 1;
     }
 
     &_opportunities {
       display: flex;
       align-items: center;
       margin-top: 70px;
+      opacity: 1;
 
       &_wrapper {
         border-radius: 50%;
@@ -126,3 +131,7 @@
     }
   }
 }
+
+// .features-app__content_opportunities :nth-child(1) {
+//   background-color: black;
+// }

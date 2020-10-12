@@ -34,7 +34,7 @@
   z-index: 2;
 }
 
-.main .choice-app_content_text-editiors {
+.main .choice-app_content_text-editors {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -45,23 +45,16 @@
   width: 360px;
   background-color: #e2eaed;
   border-radius: 20px;
+  opacity: 1;
 }
 
-.main .choice-app_content_text-editiors .check-mark {
-  width: 20px;
-  height: 20px;
-  border: 7px solid orange;
-  background-color: orange;
-  border-radius: 50%;
-}
-
-.main .choice-app_content_text-editiors h4 {
+.main .choice-app_content_text-editors h4 {
   font-size: 17px;
   font-family: "Poppins";
   color: #242f51;
   line-height: 1.556;
   font-family: "Poppins", sans-serif;
-  margin-left: 15px;
+  margin: 0 0 0 15px;
   font-weight: 400;
 }
 
@@ -72,6 +65,7 @@
   font-weight: 600;
   line-height: 1.25;
   margin-top: 30px;
+  opacity: 1;
 }
 
 .main .choice-app_content_text span {
@@ -97,6 +91,7 @@
 .main .choice-app_content-phone {
   margin-left: 100px;
   z-index: 2;
+  opacity: 1;
 }
 
 .main .choice-app .background-city {
@@ -106,22 +101,25 @@
   height: 250px;
 }
 
-.main .choice-app-circles .left-bottom {
+.main .choice-app-circles .circles-left-bottom {
   position: absolute;
   bottom: 80px;
   left: 350px;
+  opacity: 1;
 }
 
-.main .choice-app-circles .top {
+.main .choice-app-circles .circles-top {
   position: absolute;
   right: 35%;
   top: 0px;
+  opacity: 1;
 }
 
-.main .choice-app-circles .right-bottom {
+.main .choice-app-circles .circles-right-bottom {
   position: absolute;
   bottom: 60px;
   right: 120px;
+  opacity: 1;
 }
 
 .main .choice-app-circles-left {
@@ -129,6 +127,7 @@
   left: 5px;
   width: 850px;
   top: 50px;
+  opacity: 1;
 }
 
 .main .choice-app-circles-gradient {
