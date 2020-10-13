@@ -12,6 +12,7 @@
     font-weight: 600;
     line-height: 1.278;
     text-align: center;
+    opacity: 1;
   }
 
   &__caption-text {
@@ -22,48 +23,53 @@
     color: rgb(97, 99, 104);
     line-height: 1.625;
     text-align: center;
+    opacity: 1;
   }
 
   &__content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 1030px;
-    margin-top: 25px;
-
-    &_opportunities {
+    &_block {
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      width: 270px;
-      margin-top: 75px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 1030px;
+      margin-top: 25px;
+      opacity: 1;
 
-      &-icon {
-        width: 88px;
-        height: 88px;
+      &_opportunities {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
-        border-radius: 50%;
-      }
+        text-align: center;
+        width: 270px;
+        margin-top: 75px;
+        opacity: 1;
 
-      &_block {
-        &-caption {
-          margin-top: 35px;
-          font-size: 20px;
-          font-family: "Poppins", sans-serif;
-          color: rgb(36, 47, 81);
-          font-weight: 600;
-          line-height: 2.9;
+        &-icon {
+          width: 88px;
+          height: 88px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 50%;
         }
 
-        &-text {
-          margin-top: 25px;
-          font-size: 16px;
-          font-family: "Poppins", sans-serif;
-          color: rgb(97, 99, 104);
-          line-height: 1.625;
+        &_block {
+          &-caption {
+            margin-top: 35px;
+            font-size: 20px;
+            font-family: "Poppins", sans-serif;
+            color: rgb(36, 47, 81);
+            font-weight: 600;
+            line-height: 2.9;
+          }
+
+          &-text {
+            margin-top: 25px;
+            font-size: 16px;
+            font-family: "Poppins", sans-serif;
+            color: rgb(97, 99, 104);
+            line-height: 1.625;
+          }
         }
       }
     }

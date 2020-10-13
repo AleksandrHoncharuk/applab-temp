@@ -1,7 +1,3 @@
-.smart-jackpots {
-  margin-top: 215px;
-}
-
 .smart-jackpots__caption {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -55,6 +51,7 @@
 .smart-jackpots__content_opportunities {
   width: 265px;
   margin: 0 55px;
+  opacity: 1;
 }
 
 .smart-jackpots__content_opportunities-icon {

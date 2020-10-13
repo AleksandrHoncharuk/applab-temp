@@ -94,12 +94,14 @@
 .ultimate-features__phones {
   position: relative;
   z-index: 1;
+  opacity: 1;
 }
 
 .ultimate-features__phones-left {
   position: absolute;
   z-index: -1;
   left: -200px;
+  opacity: 1;
 }
 
 .ultimate-features__phones-background {
@@ -107,6 +109,7 @@
   top: -100px;
   left: -200px;
   z-index: -2;
+  opacity: 1;
 }
 
 @media only screen and (max-width: 1750px) {

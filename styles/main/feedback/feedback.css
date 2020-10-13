@@ -9,12 +9,14 @@
   position: relative;
 }
 
-.feedback__client-icon img:first-child {
-  position: relative;
-}
-
 .feedback__client-icon img {
   position: absolute;
+  opacity: 1;
+}
+
+.feedback__client-icon .map {
+  position: relative;
+  opacity: 1;
 }
 
 .feedback__client-icon .left-man {

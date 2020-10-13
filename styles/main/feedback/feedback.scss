@@ -5,12 +5,14 @@
   &__client-icon {
     position: relative;
 
-    & img:first-child {
-      position: relative;
-    }
-
     & img {
       position: absolute;
+      opacity: 1;
+    }
+
+    .map {
+      position: relative;
+      opacity: 1;
     }
 
     .left-man {
