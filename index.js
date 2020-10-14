@@ -79,11 +79,11 @@ let featuresAppContent = gsap
   })
   .from(".features-app__content_caption", {
     duration: 1,
-    delay: 1.5,
+    delay: 1.3,
     opacity: 0
   })
   .from(".features-app__content_caption-text", {
-    duration: 1,
+    duration: 0.7,
     opacity: 0
   })
   .from(".features-app__opportunities-first", {
@@ -114,7 +114,7 @@ let verticalLine = gsap
   })
   .from(".smart-jackpots__caption-line", {
     duration: 1,
-    delay: 2,
+    delay: 1.5,
     opacity: 0
   });
 
@@ -128,7 +128,7 @@ let captionLeft = gsap
   })
   .from(".smart-jackpots__caption-left", {
     duration: 1,
-    delay: 3,
+    delay: 2,
     x: -100,
     opacity: 0
   });
@@ -143,7 +143,7 @@ let captionRight = gsap
   })
   .from(".smart-jackpots__caption-right", {
     duration: 1,
-    delay: 3,
+    delay: 2,
     x: 100,
     opacity: 0
   })
@@ -186,13 +186,13 @@ let shouldChoose = gsap
   .timeline({
     scrollTrigger: {
       trigger: ".should-choose",
-      start: "top center",
+      start: "top bottom",
       toggleActions: "restart none none reset"
     }
   })
   .from(".should-choose__caption", {
     duration: 1,
-    delay: 1.5,
+    delay: 2,
     y: 20,
     opacity: 0
   })
@@ -217,8 +217,8 @@ let shouldChoose = gsap
 let rightPhone = gsap
   .timeline({
     scrollTrigger: {
-      trigger: ".ultimate-features__phones",
-      start: "top bottom",
+      trigger: ".ultimate-features",
+      start: "top center",
       toggleActions: "restart none none reset"
     }
   })
@@ -237,8 +237,8 @@ let rightPhone = gsap
 let leftPhone = gsap
   .timeline({
     scrollTrigger: {
-      trigger: ".ultimate-features__phones",
-      start: "top bottom",
+      trigger: ".ultimate-features",
+      start: "top center",
       toggleActions: "restart none none reset"
     }
   })
@@ -263,7 +263,7 @@ let peopleIcon = gsap
   })
   .from(".map", {
     duration: 1,
-    delay: 1.5,
+    delay: 1.4,
     opacity: 0
   })
   .from(".top-right-man", {
