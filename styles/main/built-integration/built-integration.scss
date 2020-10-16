@@ -1,17 +1,22 @@
 .built-integration {
   display: flex;
   align-items: center;
-  margin-top: 130px;
   padding-bottom: 70px;
   border-bottom: 1px solid rgb(223, 221, 221);
+  position: relative;
 
   &__programs {
     margin-left: 320px;
     position: relative;
     opacity: 1;
+    top: 0;
 
-    .absolute {
+    & img {
       position: absolute;
+    }
+
+    & :nth-child(1) {
+      position: inherit;
     }
 
     .js-icon {

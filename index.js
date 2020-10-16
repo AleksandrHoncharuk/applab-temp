@@ -10,7 +10,7 @@ gsap.from(".choice-app_content-phone", {
 let header = gsap
   .timeline()
   .from(".choice-app_content_text-editors", {
-    duration: 0.8,
+    duration: 1,
     x: -100,
     opacity: 0
   })
@@ -29,29 +29,25 @@ let header = gsap
     opacity: 0
   });
 
-let circles = gsap.timeline().from(".choice-app-circles-left", {
-  duration: 2,
-  delay: 3,
-  opacity: 0
-});
-
-let circlesLeftBottom = gsap.timeline().from(".circles-left-bottom", {
-  duration: 2,
-  delay: 3.5,
-  opacity: 0
-});
-
-let circlesTop = gsap.timeline().from(".circles-top", {
-  duration: 2,
-  delay: 4,
-  opacity: 0
-});
-
-let circlesRightBottom = gsap.timeline().from(".circles-right-bottom", {
-  duration: 2,
-  delay: 5,
-  opacity: 0
-});
+let circles = gsap
+  .timeline()
+  .from(".choice-app-circles-left", {
+    duration: 1,
+    delay: 3,
+    opacity: 0
+  })
+  .from(".circles-left-bottom", {
+    duration: 1,
+    opacity: 0
+  })
+  .from(".circles-top", {
+    duration: 1,
+    opacity: 0
+  })
+  .from(".circles-right-bottom", {
+    duration: 1,
+    opacity: 0
+  });
 
 // feature app section
 
@@ -86,19 +82,10 @@ let featuresAppContent = gsap
     duration: 0.7,
     opacity: 0
   })
-  .from(".features-app__opportunities-first", {
+  .from(".features-app__content_opportunities", {
     duration: 0.7,
     x: 100,
-    opacity: 0
-  })
-  .from(".features-app__opportunities-second", {
-    duration: 0.7,
-    x: 100,
-    opacity: 0
-  })
-  .from(".features-app__opportunities-third", {
-    duration: 0.7,
-    x: 100,
+    stagger: 0.5,
     opacity: 0
   });
 
@@ -114,53 +101,33 @@ let verticalLine = gsap
   })
   .from(".smart-jackpots__caption-line", {
     duration: 1,
-    delay: 1.5,
-    opacity: 0
-  });
-
-let captionLeft = gsap
-  .timeline({
-    scrollTrigger: {
-      trigger: ".smart-jackpots",
-      start: "top bottom",
-      toggleActions: "restart none none reset"
-    }
-  })
-  .from(".smart-jackpots__caption-left", {
-    duration: 1,
-    delay: 2,
-    x: -100,
-    opacity: 0
-  });
-
-let captionRight = gsap
-  .timeline({
-    scrollTrigger: {
-      trigger: ".smart-jackpots",
-      start: "top bottom",
-      toggleActions: "restart none none reset"
-    }
-  })
-  .from(".smart-jackpots__caption-right", {
-    duration: 1,
-    delay: 2,
-    x: 100,
+    delay: 0.7,
     opacity: 0
   })
-  .from(".smart-jackpots__opportunities-left", {
+  .addLabel("caption")
+  .from(
+    ".smart-jackpots__caption-left",
+    {
+      duration: 1,
+      x: -100,
+      opacity: 0
+    },
+    "caption"
+  )
+  .from(
+    ".smart-jackpots__caption-right",
+    {
+      duration: 1,
+      x: 100,
+      opacity: 0
+    },
+    "caption"
+  )
+  .from(".smart-jackpots__content_opportunities", {
     duration: 0.7,
     y: 20,
-    opacity: 0
-  })
-  .from(".smart-jackpots__opportunities-center", {
-    duration: 0.7,
-    y: 20,
-    opacity: 0
-  })
-  .from(".smart-jackpots__opportunities-right", {
-    duration: 0.7,
-    y: 20,
-    opacity: 0
+    opacity: 0,
+    stagger: 0.5
   });
 
 // built-integration section
@@ -169,7 +136,7 @@ let img = gsap
   .timeline({
     scrollTrigger: {
       trigger: ".built-integration",
-      start: "top bottom",
+      start: "+=40 bottom",
       toggleActions: "restart none none reset"
     }
   })
@@ -185,14 +152,14 @@ let img = gsap
 let shouldChoose = gsap
   .timeline({
     scrollTrigger: {
-      trigger: ".should-choose",
-      start: "top bottom",
+      trigger: ".should-choose__caption",
+      start: "+=100 bottom",
       toggleActions: "restart none none reset"
     }
   })
   .from(".should-choose__caption", {
     duration: 1,
-    delay: 2,
+    delay: 1.5,
     y: 20,
     opacity: 0
   })
@@ -203,12 +170,12 @@ let shouldChoose = gsap
   })
   .from(".opportunities-first-block", {
     duration: 1,
-    x: -520,
+    x: -50,
     opacity: 0
   })
   .from(".opportunities-second-block", {
     duration: 1,
-    x: 520,
+    x: 50,
     opacity: 0
   });
 
@@ -256,8 +223,8 @@ let leftPhone = gsap
 let peopleIcon = gsap
   .timeline({
     scrollTrigger: {
-      trigger: ".feedback",
-      start: "top bottom",
+      trigger: ".map",
+      start: "-=100 bottom",
       toggleActions: "restart none none reset"
     }
   })
