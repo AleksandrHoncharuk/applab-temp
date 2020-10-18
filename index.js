@@ -4,6 +4,7 @@ gsap.from(".choice-app_content-phone", {
   duration: 1.5,
   delay: 3.5,
   y: -100,
+  autoAlpha: 0,
   opacity: 0
 });
 

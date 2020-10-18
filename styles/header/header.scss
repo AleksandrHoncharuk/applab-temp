@@ -8,6 +8,8 @@
   }
 
   &__logo a {
+    text-decoration: none;
+
     p {
       font-size: 30px;
       font-family: "Poppins", sans-serif;
@@ -36,6 +38,7 @@
           font-family: "Poppins", sans-serif;
           color: rgb(36, 47, 81);
           line-height: 2.75;
+          text-decoration: none;
         }
       }
     }
